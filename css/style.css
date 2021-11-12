@@ -1,0 +1,174 @@
+/* 
+Eccles Health Sciences Libary Online Holiday Card 2021 
+Created November 2021
+Author: Bryan Elias Hull
+Github: https://github.com/eliashull
+Resources Utilized
+-- Bootstrap 
+-- Google Fonts
+-- Font Awesome
+-- Animate on Scroll
+-- Animated Snow from https://www.balbooa.com/blog/tips-and-tricks/add-falling-snowflakes-animation-on-your-joomla-site
+-- Silent Night Music from YouTube Library
+*/
+
+
+/*** BASICS ***/
+
+body{
+background-color:#eeeeee;
+background-image: url("img/ehsl-in-winter-1971.jpg");
+background-repeat: no-repeat;
+background-size: auto;
+}
+
+
+/*** TEXT ***/
+
+body, input, select, textarea {
+color: #1a1a1a;
+font-family: "Josefin Sans", sans-serif;
+line-height: 1.5;
+letter-spacing: 1.75px;
+}
+
+h1, h2 {
+color: #ac162c;
+font-family: 'Petemoss', cursive;
+font-size: 6rem;
+margin: 7px 15px 7px 15px;
+}
+
+h3, h4 {
+color: #1a1a1a;
+font-family: "Josefin Sans", sans-serif;
+font-weight: 600;
+margin: 7px 15px 7px 15px;
+}
+
+h5 {
+color: #ac162c;
+font-family: 'Petemoss', cursive;
+font-size: 1.75rem;
+margin: 7px 0px 7px 0px;
+display: inline;
+}
+
+p{
+margin: 7px 15px 7px 15px;
+font-weight: 400; 
+font-size: 1rem;   
+}
+
+strong {
+	font-weight: 600;
+}
+
+p.footer-text{
+color: #555555;
+text-transform: uppercase;
+font-size: 8px;
+}
+
+
+/* SITE ELEMENTS */
+
+.sitecontent{
+background-color: rgba(238, 238, 238, 0.9);
+max-width: 750px;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%);
+padding: 40px 40px 10px 40px;
+}
+
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+
+/*** LINKS AND BUTTONS ***/
+
+a{
+transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+color: #003399;
+border-bottom-style: dotted;
+border-width: 2px; 
+text-decoration: none;
+}
+
+a:hover {
+color: #ac162c;
+text-decoration: none;
+}
+
+.social-link{
+font-size: 1.5rem;
+margin-top: 15px;
+border-bottom-style: none;
+}
+
+.donate-link{
+	border-bottom-style: none;
+}
+
+.donate-link:hover{
+	border-bottom-style: none;
+	color: #eeeeee;
+}
+
+button{
+	display: inline;
+	margin: 0% 50% 0% 50%;
+}
+
+.btn{
+position: relative;
+/*display: block;*/
+font-weight: 600;
+color: #ac162c;
+letter-spacing: 2px;
+text-decoration: none;
+margin: 10px;
+border: 2px solid #ac162c;
+padding: 15px 50px;
+text-transform: uppercase;
+overflow: hidden;
+transition: 1s all ease;
+}
+
+.btn::before{
+background-color: #ac162c;
+content: "";
+color: #eeeeee;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: -1;
+transition: all 0.5s ease;
+}
+
+.btn:hover {
+    color: #eeeeee;
+}
+
+.btn-fx::before{
+width: 100%;
+height: 0%;
+transform: translate(-50%,-50%) rotate(45deg);
+}
+
+.btn-fx:hover::before{
+height: 425%;
+
+}
