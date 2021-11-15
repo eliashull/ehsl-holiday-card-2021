@@ -22,4 +22,4 @@ Resources Utilized
 
 -- Animated Snow from https://www.balbooa.com/blog/tips-and-tricks/add-falling-snowflakes-animation-on-your-joomla-site
 
--- Silent Night Music from YouTube Library
+-- Music from YouTube Library
