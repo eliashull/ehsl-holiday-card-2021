@@ -9,7 +9,7 @@ Resources Utilized
 -- Font Awesome
 -- Animate on Scroll
 -- Animated Snow from https://www.balbooa.com/blog/tips-and-tricks/add-falling-snowflakes-animation-on-your-joomla-site
--- Silent Night Music from YouTube Library
+-- Music from YouTube Library
 */
 
 
@@ -29,7 +29,7 @@ background-attachment: fixed;
 body, input, select, textarea {
 color: #1a1a1a;
 font-family: "Josefin Sans", sans-serif;
-line-height: 1.5;
+line-height: 1.25;
 letter-spacing: 1.75px;
 }
 
@@ -62,7 +62,7 @@ font-size: 1rem;
 }
 
 strong {
-	font-weight: 600;
+font-weight: 600;
 }
 
 p.footer-text{
@@ -72,7 +72,7 @@ font-size: 8px;
 }
 
 
-/* SITE ELEMENTS */
+/*** SITE ELEMENTS ***/
 
 .sitecontent{
 background-color: rgba(238, 238, 238, 0.75);
@@ -87,13 +87,13 @@ padding: 40px 40px 10px 40px;
 }
 
 #snow {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    pointer-events: none;
-    z-index: 1000;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+pointer-events: none;
+z-index: 1000;
 }
 
 
@@ -119,12 +119,11 @@ border-bottom-style: none;
 }
 
 .donate-link{
-	border-bottom-style: none;
+border-bottom-style: none;
 }
 
 .donate-link:hover{
-	border-bottom-style: none;
-	color: #eeeeee;
+border-bottom-style: none;
 }
 
 button{
@@ -160,7 +159,7 @@ transition: all 0.5s ease;
 }
 
 .btn:hover {
-    color: #eeeeee;
+color: #eeeeee;
 }
 
 .btn-fx::before{
