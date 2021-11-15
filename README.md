@@ -8,6 +8,8 @@ Author: Bryan Elias Hull
 
 Github: https://github.com/eliashull
 
+GitPages: https://eliashull.github.io/ehsl-holiday-card-2021/
+
 Resources Utilized
 
 -- Bootstrap 
